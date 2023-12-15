@@ -2,12 +2,18 @@ console.log("JS OK");
 
 //! Step 1 / 2
 
-const firstname = prompt("Qual è il tuo nome?" , "Francesco");
+const firstName = prompt("Qual è il tuo nome?" , "Francesco");
 const surname = prompt("Il tuo cognome?" , "Pasquinoni");
-const name = prompt("Qual è il tuo colore preferito?" , "blu");
-let random_val = ("23");
+const color = prompt("Qual è il tuo colore preferito?" , "blu");
+let random_Val = ("23");
 
 /* Validazione */
-console.log(firstname, surname, name, random_val);
+console.log(firstName, surname, color, random_Val);
 
+//! Step 3
+
+const password = firstName + surname + color + random_Val;
+
+/* Validazione */
+console.log(password);
 
