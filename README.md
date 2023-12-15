@@ -37,3 +37,6 @@ Poi facciamo il commit e il secondo push
 2. Chiedere all'utente il valore per ciascuno tramite prompt
 3. Creo variabile per operazione di generazione password
 4. BONUS: Aggiungo al file html la password ottenuta
+    -   Creo la variabile da aggiungere al documento html
+    -   Aggiungo la variabile al documento 
+    

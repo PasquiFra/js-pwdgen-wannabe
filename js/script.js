@@ -17,3 +17,16 @@ const password = firstName + surname + color + random_Val;
 /* Validazione */
 console.log(password);
 
+//! Step 4 
+
+/* 1 */
+
+const span = document.getElementById("secret-psw");
+
+console.log(span);
+
+/* 2 */ 
+
+span.innerText += password
+
+console.log(span);

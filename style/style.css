@@ -1,0 +1,20 @@
+
+
+#secret-psw {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 17px;
+    width: 200px;
+    filter: blur(3px);
+}
+
+#secret-psw:hover {
+    
+    filter: blur(0px);
+    transition: filter 1s, background-color 1s;
+
+    background-color: transparent;
+    height: 17px;
+    width: 200px;
+}
+
+
